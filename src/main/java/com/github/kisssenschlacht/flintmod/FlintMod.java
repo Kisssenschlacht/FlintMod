@@ -1,5 +1,7 @@
 package com.github.kisssenschlacht.flintmod;
 
+import com.github.kisssenschlacht.flintmod.block.ModBlocks;
+import com.github.kisssenschlacht.flintmod.item.ModItemGroups;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -13,5 +15,9 @@ public class FlintMod implements ModInitializer {
 	public void onInitialize() {
 
 		LOGGER.info("Hello Fabric world!");
+
+		ModItemGroups.registerItemGroups();
+
+		ModBlocks.registerModBlocks();
 	}
 }
