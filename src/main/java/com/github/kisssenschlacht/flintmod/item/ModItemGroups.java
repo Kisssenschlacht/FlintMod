@@ -17,6 +17,7 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(Items.FLINT))
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.COMPRESSED_FLINT_BLOCK);
+                        entries.add(ModItems.COPPER_WIRE);
                     }).build();
 
     public static void registerItemGroups() {
