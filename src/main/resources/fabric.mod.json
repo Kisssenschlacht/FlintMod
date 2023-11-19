@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "flintmod",
+	"version": "${version}",
+	"name": "Flint Mod",
+	"description": "A mod about Flint. \"Flint is the best resource known to mankind\" - Someone, somewhere, probably the author, me!",
+	"authors": [
+		"kisssenschlacht",
+		"frndotmsn"
+	],
+	"contact": {
+		"homepage": "https://github.com/kisssenschlacht /",
+		"sources": "https://github.com/kisssenschlacht/flintmod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/flintmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.github.kisssenschlacht.flintmod.FlintMod"
+		],
+		"client": [
+			"com.github.kisssenschlacht.flintmod.FlintModClient"
+		],
+		"fabric-datagen": [
+			"com.github.kisssenschlacht.flintmod.FlintModDataGenerator"
+		]
+	},
+	"mixins": [
+		"flintmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.24",
+		"minecraft": "~1.20.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
