@@ -2,14 +2,14 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:copper_ingot"
+      "item": "flintmod:copper_wire"
     },
     {
-      "item": "minecraft:copper_ingot"
+      "item": "minecraft:blue_carpet"
     }
   ],
   "result": {
-    "item": "flintmod:copper_wire",
+    "item": "flintmod:blue_cable",
     "count": 1
   }
 }

@@ -9,6 +9,8 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     public static final Item COPPER_WIRE = registerItem("copper_wire", new Item(new FabricItemSettings()));
+    public static final Item BLUE_CABLE = registerItem("blue_cable", new Item(new FabricItemSettings()));
+    public static final Item RED_CABLE = registerItem("red_cable", new Item(new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(FlintMod.MOD_ID, name), item);
