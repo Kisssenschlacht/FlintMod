@@ -4,6 +4,9 @@
   "item.flintmod.copper_wire": "Copper Wire",
   "item.flintmod.red_cable": "Red Cable",
   "item.flintmod.blue_cable": "Blue Cable",
+  "item.flintmod.copper_foil": "Copper Foil",
+  "item.flintmod.substrate": "Substrate",
+  "item.flintmod.electronics": "Electronics",
 
   "itemgroup.flintmod": "Flint Mod Group"
 }

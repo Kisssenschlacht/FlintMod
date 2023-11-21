@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "flintmod:substrate"
+    },
+    {
+      "item": "flintmod:red_cable"
+    },
+    {
+      "item": "flintmod:blue_cable"
+    }
+  ],
+  "result": {
+    "item": "flintmod:electronics",
+    "count": 1
+  }
+}

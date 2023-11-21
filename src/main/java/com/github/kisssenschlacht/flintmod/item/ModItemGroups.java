@@ -20,6 +20,9 @@ public class ModItemGroups {
                         entries.add(ModItems.COPPER_WIRE);
                         entries.add(ModItems.BLUE_CABLE);
                         entries.add(ModItems.RED_CABLE);
+                        entries.add(ModItems.COPPER_FOIL);
+                        entries.add(ModItems.SUBSTRATE);
+                        entries.add(ModItems.ELECTRONICS);
                     }).build();
 
     public static void registerItemGroups() {
