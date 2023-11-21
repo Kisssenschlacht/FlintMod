@@ -17,12 +17,15 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(Items.FLINT))
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.COMPRESSED_FLINT_BLOCK);
+                        entries.add(ModBlocks.CASING_BLOCK);
+
                         entries.add(ModItems.COPPER_WIRE);
                         entries.add(ModItems.BLUE_CABLE);
                         entries.add(ModItems.RED_CABLE);
                         entries.add(ModItems.COPPER_FOIL);
                         entries.add(ModItems.SUBSTRATE);
                         entries.add(ModItems.ELECTRONICS);
+                        entries.add(ModItems.FLINT_PLATE);
                     }).build();
 
     public static void registerItemGroups() {

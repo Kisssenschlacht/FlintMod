@@ -15,6 +15,8 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
     public static final Block COMPRESSED_FLINT_BLOCK = registerBlock("compressed_flint_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.ANVIL)));
+    public static final Block CASING_BLOCK = registerBlock("casing_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.ANVIL)));
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(FlintMod.MOD_ID, name),
