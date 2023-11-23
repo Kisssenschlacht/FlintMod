@@ -10,6 +10,7 @@
   "item.flintmod.substrate": "Substrate",
   "item.flintmod.electronics": "Electronics",
   "item.flintmod.flint_plate": "Flint Plate",
+  "item.flintmod.red_electrical_button": "Red Electrical Button",
 
   "itemgroup.flintmod": "Flint Mod Group"
 }

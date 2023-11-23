@@ -27,6 +27,7 @@ public class ModItemGroups {
                         entries.add(ModItems.SUBSTRATE);
                         entries.add(ModItems.ELECTRONICS);
                         entries.add(ModItems.FLINT_PLATE);
+                        entries.add(ModItems.RED_ELECTRICAL_BUTTON);
                     }).build();
 
     public static void registerItemGroups() {

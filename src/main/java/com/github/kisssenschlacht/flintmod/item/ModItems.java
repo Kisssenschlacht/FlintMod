@@ -15,6 +15,7 @@ public class ModItems {
     public static final Item SUBSTRATE = registerItem("substrate", new Item(new FabricItemSettings()));
     public static final Item ELECTRONICS = registerItem("electronics", new Item(new FabricItemSettings()));
     public static final Item FLINT_PLATE = registerItem("flint_plate", new Item(new FabricItemSettings()));
+    public static final Item RED_ELECTRICAL_BUTTON = registerItem("red_electrical_button", new Item(new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(FlintMod.MOD_ID, name), item);
