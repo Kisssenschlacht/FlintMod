@@ -1,0 +1,20 @@
+{
+  "parent": "block/block",
+  "textures": {
+    "particle": "#casing"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 0],
+      "to": [16, 16, 16],
+      "faces": {
+        "down":  { "uv": [0, 0, 16, 16], "texture": "#casing", "cullface": "down" },
+        "up":    { "uv": [0, 0, 16, 16], "texture": "#casing", "cullface": "up" },
+        "north": { "uv": [0, 0, 16, 16], "texture": "#front",   "cullface": "north" },
+        "south": { "uv": [0, 0, 16, 16], "texture": "#casing",   "cullface": "south" },
+        "west":  { "uv": [0, 0, 16, 16], "texture": "#casing",   "cullface": "west" },
+        "east":  { "uv": [0, 0, 16, 16], "texture": "#casing",   "cullface": "east" }
+      }
+    }
+  ]
+}

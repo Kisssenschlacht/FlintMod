@@ -1,0 +1,7 @@
+{
+  "parent": "flintmod:block/simple_machine_block",
+  "textures": {
+    "front": "flintmod:block/flint_compressor_block_front",
+    "casing": "flintmod:block/casing_block"
+  }
+}

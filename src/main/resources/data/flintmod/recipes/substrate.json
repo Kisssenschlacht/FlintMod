@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "flintmod:copper_foil"
+    },
+    {
+      "item": "flintmod:copper_foil"
+    },
+    {
+      "item": "minecraft:green_carpet"
+    }
+  ],
+  "result": {
+    "item": "flintmod:substrate",
+    "count": 1
+  }
+}

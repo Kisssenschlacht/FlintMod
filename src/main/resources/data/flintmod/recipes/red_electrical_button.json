@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_nugget"
+    },
+    {
+      "item": "flintmod:copper_foil"
+    },
+    {
+      "item": "flintmod:copper_wire"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:red_dye"
+    }
+  ],
+  "result": {
+    "item": "flintmod:red_electrical_button",
+    "count": 1
+  }
+}

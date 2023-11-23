@@ -1,5 +1,16 @@
 {
-  "block.flintmod.compressed_flint_block": "Compressed Flint Block",
+  "block.flintmod.compressed_flint_block": "Compressed Flint",
+  "block.flintmod.casing_block": "Casing",
+  "block.flintmod.flint_compressor_block": "Flint Compressor",
+
+  "item.flintmod.copper_wire": "Copper Wire",
+  "item.flintmod.red_cable": "Red Cable",
+  "item.flintmod.blue_cable": "Blue Cable",
+  "item.flintmod.copper_foil": "Copper Foil",
+  "item.flintmod.substrate": "Substrate",
+  "item.flintmod.electronics": "Electronics",
+  "item.flintmod.flint_plate": "Flint Plate",
+  "item.flintmod.red_electrical_button": "Red Electrical Button",
 
   "itemgroup.flintmod": "Flint Mod Group"
 }
