@@ -1,0 +1,24 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "flintmod:block/flint_compressor_block",
+      "x": 0,
+      "y": 0
+    },
+    "facing=east": {
+      "model": "flintmod:block/flint_compressor_block",
+      "x": 0,
+      "y": 90
+    },
+    "facing=south": {
+      "model": "flintmod:block/flint_compressor_block",
+      "x": 0,
+      "y": 180
+    },
+    "facing=west": {
+      "model": "flintmod:block/flint_compressor_block",
+      "x": 0,
+      "y": 270
+    }
+  }
+}

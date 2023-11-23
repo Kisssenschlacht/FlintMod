@@ -17,7 +17,8 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.ANVIL)));
     public static final Block CASING_BLOCK = registerBlock("casing_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.ANVIL)));
-    private static Block registerBlock(String name, Block block){
+    public static final FlintCompressorBlock FLINT_COMPRESSOR_BLOCK = registerBlock("flint_compressor_block", new FlintCompressorBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+    private static <T extends Block> T registerBlock(String name, T block){
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(FlintMod.MOD_ID, name),
                 block);

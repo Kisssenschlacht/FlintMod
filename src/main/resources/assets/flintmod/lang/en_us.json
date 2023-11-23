@@ -1,6 +1,7 @@
 {
   "block.flintmod.compressed_flint_block": "Compressed Flint",
   "block.flintmod.casing_block": "Casing",
+  "block.flintmod.flint_compressor_block": "Flint Compressor",
 
   "item.flintmod.copper_wire": "Copper Wire",
   "item.flintmod.red_cable": "Red Cable",

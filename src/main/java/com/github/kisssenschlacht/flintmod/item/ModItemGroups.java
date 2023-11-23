@@ -18,6 +18,7 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.COMPRESSED_FLINT_BLOCK);
                         entries.add(ModBlocks.CASING_BLOCK);
+                        entries.add(ModBlocks.FLINT_COMPRESSOR_BLOCK);
 
                         entries.add(ModItems.COPPER_WIRE);
                         entries.add(ModItems.BLUE_CABLE);
